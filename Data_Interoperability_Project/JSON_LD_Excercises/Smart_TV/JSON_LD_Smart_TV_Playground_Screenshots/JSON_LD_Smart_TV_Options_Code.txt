@@ -1,0 +1,55 @@
+[
+  {
+    "@type": [
+      "http://schema.org/SmartTVcontrolaction"
+    ],
+    "http://schema.org/agent": [
+      {
+        "@type": [
+          "http://schema.org/Person"
+        ],
+        "http://schema.org/name": [
+          {
+            "@value": "Arun"
+          }
+        ]
+      }
+    ],
+    "http://schema.org/event": [
+      {
+        "@type": [
+          "http://schema.org/changestate"
+        ],
+        "http://schema.org/name": [
+          {
+            "@value": "poweron"
+          }
+        ]
+      }
+    ],
+    "http://schema.org/instrument": [
+      {
+        "@type": [
+          "http://schema.org/Product"
+        ],
+        "http://schema.org/name": [
+          {
+            "@value": "remotecontroller"
+          }
+        ]
+      }
+    ],
+    "http://schema.org/object": [
+      {
+        "@type": [
+          "http://schema.org/watching netflix"
+        ],
+        "http://schema.org/name": [
+          {
+            "@value": "Smart TV"
+          }
+        ]
+      }
+    ]
+  }
+]

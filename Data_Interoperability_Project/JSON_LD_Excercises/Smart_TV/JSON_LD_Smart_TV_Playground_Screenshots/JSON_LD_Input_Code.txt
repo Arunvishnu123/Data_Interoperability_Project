@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SmartTVcontrolaction",
+  "agent": {
+    "@type": "Person",
+    "name": "Arun"
+  },
+  "object": {
+    "@type": "watching netflix",
+    "name": "Smart TV"
+  },
+  "instrument": {
+    "@type": "Product",
+    "name": "remotecontroller"
+  },
+  "event":{
+    "@type":"changestate",
+    "name": "poweron"
+  }
+}
