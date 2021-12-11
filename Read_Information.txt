@@ -1,5 +1,10 @@
 In this project I mostly used python as programming language.
-but in creastion of java classes form JSON schema and object creation from json format and vice versa I used java langauge
+but in creation of java classes form JSON schema and object creation from json format and vice versa,, I used java langauge
 
 In each folder I write the information reagrding that folder in text document name "read_information"
 and also the screenshots also attached in the folders respectively
+
+
+
+Arun Raveendran Nair Sheela
+Cyber-Physical and Social System
