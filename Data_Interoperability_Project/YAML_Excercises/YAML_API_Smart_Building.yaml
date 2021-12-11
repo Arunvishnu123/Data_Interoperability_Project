@@ -1,0 +1,111 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: Smart Home
+  description: Database of Smart Home
+servers:
+  - url: http//api.example.org
+paths:
+  /listofrooms:
+    description: A json array of list of rooms
+    get:
+      description: operation to fetch  list of rooms
+      parameters:
+        - in: query
+          name: listofrooms
+          required: true
+          schema:
+            type: string
+            example:
+              - room1
+      responses:
+        '200':
+          description: success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  properties:
+                    roomid:
+                      type: integer
+                      example: 3
+                    roomdevicelist:
+                      type: array
+  /listofrooms/{id}:
+    description: get room item by room id
+    get:
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: return list of devices in room {id}
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  properties:
+                    colorlightbuldid:
+                      type: integer
+                      example: 4
+                    smarttvsid:
+                      type: integer
+                      example: 5'
+  /listofrooms/{id}/{deviceid}:
+    description: return device status of selected
+    get:
+      description: operation to fetch  list of rooms
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+        - in: path
+          name: deviceid
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: return the status of selected device id
+          content:
+            application/json:
+              schema:
+                type: boolean
+                properties:
+                  devicestatus:
+                    type: boolean
+                    example: true
+  
+    put: 
+      description: operation to change status of connected device
+      parameters: 
+         - in: path
+           name: id
+           required: true
+           schema: 
+             type: integer
+         - in : path
+           name : deviceid
+           required: true
+           schema:
+             type: integer
+      responses:
+        200:
+           description: Success
+           content:
+            application/json:
+               schema: 
+                 type: boolean
+                 properties: 
+                   deviceon: 
+                      type: boolean
+                      example: true
+                  
+      

@@ -1,0 +1,23 @@
+here I use Jackson Maven Dependencies to create objects of json file and also the json file from objects
+
+first i need add the deppendencies - for that i need to copy paste below text in pom.xml
+
+<dependencies>
+    <dependency>
+       <groupId>com.fasterxml.jackson.core</groupId>
+       <artifactId>jackson-databind</artifactId>
+       <version>2.10.0.pr2</version>
+    </dependency>
+</dependencies>
+
+and then import "ObjectMapper" module from com.fasterxml.jackson.databind.*;
+and then create an object for "ObjectMapper" and then using "readValue" function
+
+
+similary to create  json  from object ,use "writeValueAsString" function
+
+also here need create a class called employee to with parameter(id,name,company name)
+and write and get and set functions in that class
+
+this ask I coudn't complete it because and I have problem with add the jacson dependencies in pom.xml file.
+I add the deppendency but I can't able to call that in the java class

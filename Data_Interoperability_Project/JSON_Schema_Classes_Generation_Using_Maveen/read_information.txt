@@ -1,0 +1,5 @@
+Here  I used  jsonchema2pojo Maven Plugin to create java classes from json schema
+
+
+after that I create a class under src folder to create a sample datmodel based on the java classes 
+the name of the java class is weather_API_JSON_Objects_Creation.java

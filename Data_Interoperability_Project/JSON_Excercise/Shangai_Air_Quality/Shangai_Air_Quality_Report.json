@@ -1,0 +1,30 @@
+{
+    "air_quality_report": [
+        {
+            "city": "shanghai",
+            "dateandtime": {
+                "date": "2021-12-09",
+                "time": "16:00:00",
+                "day": "tuesday",
+                "utc": true
+            },
+            "status": "unhealthy for sensitive peoples",
+            "Temp": {
+                "value": 16.8,
+                "units": "deg C"
+            },
+            "parameter": {
+                "PM2.5": 114,
+                "PM10": 56,
+                "O3": 33,
+                "NO2": 24,
+                "SO2": 3,
+                "CO": 6,
+                "Temp": 17,
+                "Pressure": 1011,
+                "Humidity": 60,
+                "wind": 1
+            }
+        }
+    ]
+}

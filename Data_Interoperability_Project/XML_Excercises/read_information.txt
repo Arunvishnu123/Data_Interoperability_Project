@@ -1,0 +1,2 @@
+here I use a extension named "xml format" for prettify
+and also attached the screenshot of online validity check and prettify

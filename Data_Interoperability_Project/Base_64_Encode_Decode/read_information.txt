@@ -1,0 +1,8 @@
+//here I encode and decode some string and pictures and I attached the screenshot of outputs  
+
+
+for encode and decode I use "base64"module from Python
+
+to decode image string and convert to .png format(what_is_this task)
+        here I used "image" class from PIL library and "BytesIO" class from io library
+and "base64" module

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IMT>
+    <types>
+        <type>public</type>
+        <type>Grand Etablissement</type>
+        <type>EPSC3</type>
+    </types>
+    <Established unit="year">1996</Established>
+    <chancellor>Phillipe Jamet</chancellor>
+    <president>Claude Imauven</president>
+    <Administrativestaff >4450</Administrativestaff>
+    <students>13400</students>
+    <postgraduates>1560</postgraduates>
+    <locations>
+        <location>Albi</location>
+        <location>Ales</location>
+        <location>Brest</location>
+        <location>Douai</location>
+        <location>Evry</location>
+        <location>Lille</location>
+        <location>Nancy</location>
+        <location>nantes</location>
+        <location>Paris</location>
+        <location>Saint-Etienne</location>
+        <location>Sophia-Antipolis</location>
+    </locations>
+    <website type="url">http://www.imt.fr/en/</website>
+</IMT>

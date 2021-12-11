@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tracklist>
+    <title name="La Vie en rose">
+        <id>A1</id>
+        <recording>La Vie en rose</recording>
+        <lyricist>Edith Piaf</lyricist>
+        <composers numbers = "2">
+            <composer1>Louiguy</composer1>
+            <composer2>Edith Piaf</composer2>
+        </composers>
+        <Publisher numbers="2">
+            <publisher1>Éditions Beuscher Arpège </publisher1>
+            <publisher1>Pear music</publisher1>
+        </Publisher>
+        <Artist>Edith Piaf</Artist>
+        <ratings>0</ratings>
+        <length unit="minutes">3.02</length>
+    </title>
+    <title name="Hymne à l’amour">
+        <id>A2</id>
+        <recording>Hymne à l’amour</recording>
+        <lyricist>Edith Piaf</lyricist>
+        <composers numbers = "1">
+            <composer1>Louiguy</composer1>
+        </composers>
+        <Artist>Edith Piaf</Artist>
+        <ratings>0</ratings>
+        <length unit="minutes">3.23</length>
+    </title>
+    <title name="J’m’en fous pas mal">
+        <id>A3</id>
+        <recording>J’m’en fous pas mal</recording>
+        <data>1946-10-09</data>
+        <vocals>
+            <artistname>Édith Piaf</artistname>
+            <date>1946-10-09</date>
+        </vocals>
+        <conductor>
+            <artistname>Édith Piaf</artistname>
+            <date>1946-10-09</date>
+        </conductor>
+        <lyricist>Michel Emer</lyricist>
+        <composers number = "1">
+            <composer1>Michel Emer</composer1>
+        </composers>
+        <Artist>Edith Piaf</Artist>
+        <ratings>0</ratings>
+        <length unit="minutes">4.16</length>
+    </title>
+    <title name="Johnny, tu n’es pas un ange">
+        <id>A4</id>
+        <recording>Johnny, tu n’es pas un ange</recording>
+        <data>1953-12-24</data>
+        <vocals>
+            <artistname>Édith Piaf</artistname>
+            <date>1953-12-24</date>
+        </vocals>
+        <conductor>
+            <artistname>Robert Chauvigny </artistname>
+            <date>1953-12-24</date>
+        </conductor>
+        <lyricist>Michel Emer</lyricist>
+        <composers number = "2">
+            <composer1>Les Paul</composer1>
+            <composer2>Richard Stein</composer2>
+        </composers>
+        <translator>Francis Lemarque</translator>
+        <translatedversion>Johnny (Is the Boy for Me)</translatedversion>
+        <lyricist>
+            <lyricist1>Liviu Deleanu</lyricist1>
+            <lyricist1>Paddy Roberts </lyricist1>
+            <lyricist1>Marcel Stellman</lyricist1>
+        </lyricist>
+        <Artist>Edith Piaf</Artist>
+        <ratings>0</ratings>
+        <length unit="minutes">2.09</length>
+    </title>
+    <title name="Bravo pour le clown !">
+        <id>A5</id>
+        <recording>Bravo pour le clown !</recording>
+        <lyricist>
+            <lyricist1>Henri Contet</lyricist1>
+        </lyricist>
+        <composers numbers = "1">
+            <composer1>Louiguy</composer1>
+        </composers>
+        <Artist>Edith Piaf</Artist>
+        <ratings>0</ratings>
+        <length unit="minutes">3.34</length>
+    </title>
+    <title name="L’Accordéoniste">
+        <id>A6</id>
+        <recording>L’Accordéoniste</recording>
+        <lyricist>
+            <lyricist1>Michel Emer</lyricist1>
+        </lyricist>
+        <composers numbers = "1">
+            <composer1>Michel Emer</composer1>
+        </composers>
+        <Artist>Edith Piaf</Artist>
+        <ratings>0</ratings>
+        <length unit="minutes">3.02</length>
+    </title>
+    <title name="L’Homme à la moto">
+        <id>A7</id>
+        <recording>L’L’Homme à la moto</recording>
+        <lyricist numbers = "2">
+            <lyricist1>Mike Stoller</lyricist1>
+            <lyricist2>Jerry Leiber</lyricist2>
+        </lyricist>
+        <composers numbers = "2">
+            <composer1>Jerry Leiber</composer1>
+            <composer2>Mike Stoller</composer2>
+        </composers>
+        <translator>Jean Dréjac</translator>
+        <translatedversion>Black Denim Trousers and Motorcycle Boots</translatedversion>
+        <Artist>Edith Piaf</Artist>
+        <ratings>0</ratings>
+        <length unit="minutes">2.02</length>
+    </title>
+    <title name="La Foule">
+        <id>B1</id>
+        <recording>La Foule</recording>
+        <lyricist numbers = "1">
+            <lyricist1>Michel Rivgauche</lyricist1>
+        </lyricist>
+        <composers numbers = "1">
+            <composer1>Ángel Cabral</composer1>
+        </composers>
+        <Publisher numbers="1">
+            <publisher1>Éditions Métropolitaines</publisher1>
+        </Publisher>
+        <Artist>Edith Piaf</Artist>
+        <ratings>0</ratings>
+        <length unit="minutes">2.54</length>
+    </title>
+    <title name="Mon manège a moi (Tu me fais tourner la tête)">
+        <id>B2</id>
+        <recording>Mon manège a moi (Tu me fais tourner la tête) </recording>
+        <lyricist numbers = "1">
+            <lyricist1>Jean Constantin</lyricist1>
+        </lyricist>
+        <composers numbers = "1">
+            <composer1>Norbert Glanzberg</composer1>
+        </composers>
+        <Publisher numbers="1">
+            <publisher1>Éditions Métropolitaines</publisher1>
+        </Publisher>
+        <vocals>
+            <artistname>Édith Piaf</artistname>
+        </vocals>
+        <recording>Mon manège à moi (Tu me fais tourner la tête)</recording>
+        <Artist>Edith Piaf</Artist>
+        <ratings>0</ratings>
+        <length unit="minutes">2.57</length>
+    </title>
+</tracklist>

@@ -1,0 +1,4 @@
+To validate and format YAML file  i use an estension module named "YAML Sort"
+also for I attached the online screenshot to this folder
+
+to format open command pallet and type "sort yaml"

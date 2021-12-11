@@ -1,0 +1,4 @@
+//here I use two time manipulation 
+
+first one is using one API - http://worldtimeapi.org/api/timezone/
+second one is using one module - time module

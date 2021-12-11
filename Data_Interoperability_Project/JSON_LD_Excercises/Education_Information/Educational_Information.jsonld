@@ -1,0 +1,43 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "EducationalProgram",
+    "name": "Master degree in Cyber-Physical and Social System",
+    "url": "https://ci.mines-stetienne.fr/cps2/",
+    "provider": {
+        "@type": "University",
+        "name": "Ecole Des Mines,Saint-Etienne",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "158 Cr Fauriel",
+            "addressLocality": "Saint-Etienne",
+            "addressRegion": "Rhone-Alpes",
+            "postalCode": "42023"
+        }
+    },
+    "timeToComplete": "P4Y",
+    "educationalCredentialAwarded": {
+        "@type": "Educational",
+        "credentialCategory": "Master of Science in Cyber-Physical and Social System"
+    },
+    "programPrerequisites": {
+        "@type": "Educational",
+        "credentialCategory": "Bachelor Degree"
+    },
+    "offers": {
+        "@type": "Offer",
+        "category": "Tuition-fees",
+        "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": 743,
+            "priceCurrency": "Euro"
+        }
+    },
+    "Schedule": {
+        "@type": "date",
+        "startdate": "2021-08-2021"
+    },
+    "subjectdetails": {
+        "@type": "subjects",
+        "subject1": "systemmodeling"
+    }
+}

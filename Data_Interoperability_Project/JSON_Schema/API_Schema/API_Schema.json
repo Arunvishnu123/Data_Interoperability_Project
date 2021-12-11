@@ -1,0 +1,167 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "Industrial Machine Online Monitoring and Control System",
+    "description": "The json contains machine status information and control operation",
+    "default": {},
+    "required": [
+        "data"
+    ],
+    "properties": {
+        "data": {
+            "$id": "#/properties/data",
+            "type": "array",
+            "description": "An explanation about the purpose of this instance.",
+            "default": [],
+            "items": {
+                "anyOf": [
+                    {
+                        "type": "object",
+                        "default": {},
+                        "required": [
+                            "machine_details",
+                            "machine_realtime_data",
+                            "machinecontrol",
+                            "machinesetting"
+                        ],
+                        "properties": {
+                            "machine_details": {
+                                "$id": "#/properties/data//machine_details",
+                                "type": "object",
+                                "description": "Contains serial and ID",
+                                "default": {},
+                                "required": [
+                                    "machineid",
+                                    "machineserialnumber",
+                                    "machinetype"
+                                ],
+                                "properties": {
+                                    "machineid": {
+                                        "$id": "#/properties/data/machine_details/machineid",
+                                        "type": "integer",
+                                        "default": 0
+                                    },
+                                    "machineserialnumber": {
+                                        "$id": "#/properties/data/machine_details/machineserialnumber",
+                                        "type": "string",
+                                        "default": ""
+                                    },
+                                    "machinetype": {
+                                        "$id": "#/properties/data/machine_details/machinetype",
+                                        "type": "string",
+                                        "default": ""
+                                    }
+                                }
+                            },
+                            "machine_realtime_data": {
+                                "$id": "#/properties/data/machine_realtime_data",
+                                "type": "object",
+                                "description": "Contains machine real time data",
+                                "default": {},
+                                "required": [
+                                    "machinestate",
+                                    "productcount",
+                                    "tem",
+                                    "machinespeed",
+                                    "dateandtime"
+                                ],
+                                "properties": {
+                                    "machinestate": {
+                                        "$id": "#//properties/data/machine_realtime_data/machinestate",
+                                        "type": "boolean",
+                                        "default": false
+                                    },
+                                    "productcount": {
+                                        "$id": "#/properties/data/machine_realtime_data/productcount",
+                                        "type": "integer",
+                                        "default": 0
+                                    },
+                                    "temp": {
+                                        "$id": "#/properties/data/machine_realtime_data/temp",
+                                        "type": "object",
+                                        "default": {},
+                                        "required": [
+                                            "value",
+                                            "units"
+                                        ],
+                                        "properties": {
+                                            "value": {
+                                                "type": "integer",
+                                                "default": 0
+                                            },
+                                            "units": {
+                                                "type": "string",
+                                                "default": ""
+                                            }
+                                        }
+                                    },
+                                    "machinespeed": {
+                                        "type": "integer",
+                                        "default": 0
+                                    },
+                                    "dateandtime": {
+                                        "type": "object",
+                                        "default": {},
+                                        "required": [
+                                            "currentdate",
+                                            "currenttime",
+                                            "utc"
+                                        ],
+                                        "properties": {
+                                            "currentdate": {
+                                                "type": "string",
+                                                "default": ""
+                                            },
+                                            "currenttime": {
+                                                "type": "string",
+                                                "default": ""
+                                            },
+                                            "utc": {
+                                                "type": "boolean",
+                                                "default": false
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "machinecontrol": {
+                                "type": "object",
+                                "description": "machin start and stop control",
+                                "default": {},
+                                "required": [
+                                    "startmachine"
+                                ],
+                                "properties": {
+                                    "startmachine": {
+                                        "type": "boolean",
+                                        "default": false
+                                    }
+                                }
+                            },
+                            "machinesetting": {
+                                "type": "object",
+                                "description": "Set the real time setting of machine",
+                                "default": {},
+                                "required": [
+                                    "updatespeed",
+                                    "updatecutofftemp"
+                                ],
+                                "properties": {
+                                    "updatespeed": {
+                                        "type": "integer",
+                                        "default": 0
+                                    },
+                                    "updatecutofftemp": {
+                                        "type": "integer",
+                                        "default": 0
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

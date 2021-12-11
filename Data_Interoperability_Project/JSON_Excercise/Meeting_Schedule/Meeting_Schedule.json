@@ -1,0 +1,242 @@
+{
+    "Meeting_Schedule": [
+        {
+            "location ": "Fayol",
+            "description": "meeting room details and schedule",
+            "meeting_start": {
+                "date": "2021-09-27",
+                "day": "monday",
+                "utc": true
+            },
+            "meeting_end": {
+                "date": "2021-10-03",
+                "day": "sunday",
+                "utc": true
+            },
+            "meeting_details": [
+                {
+                    "first_day": [
+                        {
+                            "meeting_no_1": {
+                                "name": "master_defense",
+                                "dateandtime": {
+                                    "date": "2021-09-27",
+                                    "start_time": "09:00:00",
+                                    "end_time": "10:00:00",
+                                    "utc": true
+                                },
+                                "status": "reserved",
+                                "room_details": {
+                                    "room_no": 418,
+                                    "room_type": "temporary VP",
+                                    "available_place": 12,
+                                    "max_limit": 12
+                                }
+                            },
+                            "meeting_no_2": {
+                                "name": "CIRPe2021 preparation meeting",
+                                "dateandtime": {
+                                    "date": "2021-09-27",
+                                    "start_time": "10:30:00",
+                                    "end_time": "12:00:00",
+                                    "utc": true
+                                },
+                                "status": "reserved",
+                                "room_details": {
+                                    "room_no": 418,
+                                    "room_type": "temporary VP",
+                                    "available_place": 12,
+                                    "max_limit": 12
+                                }
+                            },
+                            "meeting_no_3": {
+                                "name": "Kevin AROCA internship defense",
+                                "dateandtime": {
+                                    "date": "2021-09-27",
+                                    "start_time": "16:00:00",
+                                    "end_time": "17:30:00",
+                                    "utc": true
+                                },
+                                "status": "reserved",
+                                "room_details": {
+                                    "room_no": 418,
+                                    "room_type": "temporary VP",
+                                    "available_place": 12,
+                                    "max_limit": 12
+                                }
+                            }
+                        }
+                    ],
+                    "second_day": [
+                        {
+                            "meeting_no_1": {
+                                "name": "Thesis follow - up meeting",
+                                "dateandtime": {
+                                    "date": "2021-09-28",
+                                    "start_time": "11:30:00",
+                                    "end_time": "13:00:00",
+                                    "utc": true
+                                },
+                                "status": "reserved",
+                                "room_details": {
+                                    "room_no": 300,
+                                    "room_type": "temporary VP",
+                                    "available_place": 12,
+                                    "max_limit": 12
+                                }
+                            },
+                            "meeting_no_2": {
+                                "name": "Phd meeting",
+                                "dateandtime": {
+                                    "date": "2021-09-28",
+                                    "start_time": "14:30:00",
+                                    "end_time": "16:00:00",
+                                    "utc": true
+                                },
+                                "status": "reserved",
+                                "room_details": {
+                                    "room_no": 300,
+                                    "room_type": "temporary VP",
+                                    "available_place": 12,
+                                    "max_limit": 12
+                                }
+                            },
+                            "meeting_no_3": {
+                                "name": "Camilo thesis meeting",
+                                "dateandtime": {
+                                    "date": "2021-09-28",
+                                    "start_time": "14:00:00",
+                                    "end_time": "16:30:00",
+                                    "utc": true
+                                },
+                                "status": "reserved",
+                                "room_details": {
+                                    "room_no": 300,
+                                    "room_type": "temporary VP",
+                                    "available_place": 12,
+                                    "max_limit": 12
+                                }
+                            },
+                            "meeting_no_4": {
+                                "name": "Presentation DPI territory",
+                                "dateandtime": {
+                                    "date": "2021-09-28",
+                                    "start_time": "09:00:00",
+                                    "end_time": "10:30:00",
+                                    "utc": true
+                                },
+                                "status": "reserved",
+                                "room_details": {
+                                    "room_no": 418,
+                                    "room_type": "temporary VP",
+                                    "available_place": 12,
+                                    "max_limit": 12
+                                }
+                            },
+                            "meeting_no_5": {
+                                "name": "Support TFE Ghaziane",
+                                "dateandtime": {
+                                    "date": "2021-09-28",
+                                    "start_time": "11:00:00",
+                                    "end_time": "12:00:00",
+                                    "utc": true
+                                },
+                                "status": "reserved",
+                                "room_details": {
+                                    "room_no": 418,
+                                    "room_type": "temporary VP",
+                                    "available_place": 12,
+                                    "max_limit": 12
+                                }
+                            },
+                            "meeting_no_6": {
+                                "name": "Reunion ProTech(SRIRAM,IT'm",
+                                "dateandtime": {
+                                    "date": "2021-09-28",
+                                    "start_time": "16:00:00",
+                                    "end_time": "12=5:00:00",
+                                    "utc": true
+                                },
+                                "status": "reserved",
+                                "room_details": {
+                                    "room_no": 418,
+                                    "room_type": "temporary VP",
+                                    "available_place": 12,
+                                    "max_limit": 12
+                                }
+                            }
+                        }
+                    ],
+                    "third_day": [
+                        {
+                            "meeting_no_1": {
+                                "name": "SOS Mediterranean Meeting",
+                                "dateandtime": {
+                                    "date": "2021-09-29",
+                                    "start_time": "15:30:00",
+                                    "end_time": "18:50:00",
+                                    "utc": true
+                                },
+                                "status": "reserved",
+                                "room_details": {
+                                    "room_no": 418,
+                                    "room_type": "temporary VP",
+                                    "available_place": 12,
+                                    "max_limit": 12
+                                }
+                            },
+                            "meeting_no_2": {
+                                "name": "SIRAM project meeting",
+                                "dateandtime": {
+                                    "date": "2021-09-29",
+                                    "start_time": "11:00:00",
+                                    "end_time": "12:30:00",
+                                    "utc": true
+                                },
+                                "status": "reserved",
+                                "room_details": {
+                                    "room_no": 418,
+                                    "room_type": "temporary VP",
+                                    "available_place": 12,
+                                    "max_limit": 12
+                                }
+                            },
+                            "meeting_no_3": {
+                                "name": "DIR FAYOL",
+                                "dateandtime": {
+                                    "date": "2021-09-29",
+                                    "start_time": "14:00:00",
+                                    "end_time": "16:30:00",
+                                    "utc": true
+                                },
+                                "status": "reserved",
+                                "room_details": {
+                                    "room_no": 418,
+                                    "room_type": "temporary VP",
+                                    "available_place": 12,
+                                    "max_limit": 12
+                                }
+                            },
+                            "meeting_no_4": {
+                                "name": "TFE Thomas SOLANAS",
+                                "dateandtime": {
+                                    "date": "2021-09-28",
+                                    "start_time": "17:00:00",
+                                    "end_time": "18:00:00",
+                                    "utc": true
+                                },
+                                "status": "reserved",
+                                "room_details": {
+                                    "room_no": 418,
+                                    "room_type": "temporary VP",
+                                    "available_place": 12,
+                                    "max_limit": 12
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

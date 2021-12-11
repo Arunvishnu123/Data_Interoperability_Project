@@ -1,0 +1,14 @@
+1. What is the rating value of the movie?
+     
+     1. $.reviews[0].reviewRating.ratingValue  // individual rating
+     2. $.reviews[1].reviewRating.ratingValue  // individual rating
+     3. $.reviews[2].reviewRating.ratingValue  // individual rating
+     4. $.aggregateRating.ratingValue   //Aggregate rating
+
+2. What is the IMDB identifier for Rebecca Ferguson?
+
+     1. $.actor[0].url
+
+3. Who rated the film with only 1 star?
+     
+     1. $.reviews[?(@.reviewRating.ratingValue == 1)].author.name

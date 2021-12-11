@@ -1,0 +1,8 @@
+here I attached the screenshot of online text editor 
+
+here i use visual studio code to edit json file
+Steps to format the json file
+
+  select the text  --- rightclick ---  format document
+
+here i use the extension module named "JSON formatter" for prettify

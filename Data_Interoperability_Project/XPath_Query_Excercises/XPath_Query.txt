@@ -1,0 +1,24 @@
+From the xml document Janis Joplin’s Greatest Hits album description obtained from the MusicBrainz API
+
+In this text i will write the queries for the questions
+
+
+1. What is the artist id?
+
+      query - //artist/@id
+
+2. What is the duration of the track Summertime ?
+       
+      query - //recording[title = "Summertime"]/length
+
+3. What is the duration of the longest track?
+
+      query - max(//length)
+
+4. What is the total duration of the album?
+
+      query - sum(//recording/length)
+
+5. What are the names of the tracks that were first released before 01/01/1970 ? 
+
+       query - //first-release-date[number(translate(.,'-','')) < 19700101]

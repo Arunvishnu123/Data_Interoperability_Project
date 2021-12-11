@@ -1,0 +1,11 @@
+//Add the lighting color property in the JSON Schema
+
+
+"lightingcolor": {
+                    "type": "string",
+                    "description": "The property which returns the light color"
+                },
+
+
+The lightingcolor property is add it in the property section
+32nd line of FIWARE.json file

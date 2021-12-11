@@ -1,0 +1,10 @@
+Here I open three .csv file in excel and word editor
+
+A CSV (comma-separated values) file is a simple text file in which information is separated by commas.
+A tab-separated values (TSV) file is a simple text format for storing data in a tabular structure.
+
+when .csv file open in excel,then it look like in tabular format.So it is very easy to understand and analyse the data
+But when .csv file open in a microsoft word,data is just separated by commas.so it is difficult to study the data
+
+
+Also here I used "CSV" module from python to read some .csv documents  
