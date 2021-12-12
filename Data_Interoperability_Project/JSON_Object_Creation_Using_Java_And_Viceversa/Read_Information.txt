@@ -1,5 +1,14 @@
 here I use Jackson Maven Dependencies to create objects of json file and also the json file from objects
 
+here the json file I used is 
+{
+"id":34,
+"name":"Arun",
+"companyname":"Rockwell
+}
+
+with respect of this I created the java objects and also the vice versa
+
 first i need add the deppendencies - for that i need to copy paste below text in pom.xml
 
 <dependencies>
