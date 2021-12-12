@@ -1,5 +1,31 @@
 Here  I used  jsonchema2pojo Maven Plugin to create java classes from json schema
 
 
-after that I create a class under src folder to create a sample datmodel based on the java classes 
+after that I create a class under src folder to create a sample datamodel based on the java classes created.
 the name of the java class is weather_API_JSON_Objects_Creation.java
+
+Steps to create JAVA classes from JSON Schema
+
+1,First add the maven plugin to pom.xml file in java by copying the below text.
+
+<plugin>
+ <groupId>org.jsonschema2pojo</groupId>
+ <artifactId>jsonschema2pojo-maven-plugin</artifactId>
+ <version>0.4.34</version>
+ <configuration>      
+ <sourceDirectory>${basedir}/src/main/resources/schema</sourceDirectory>///location of the json schema file
+ <targetPackage>com.test.gen</targetPackage>//name of the generted class file
+ <useCommonsLang3>true</useCommonsLang3>
+ </configuration>
+ <executions>
+ <execution>
+ <goals>
+ <goal>generate</goal>
+ </goals>
+ </execution>
+ </executions>
+ </plugin>
+
+2,after that run the pom.xml file and select the generate-source command
+3,Then automatically the classes will created
+4,after that I used that classses to create a sample json objects
