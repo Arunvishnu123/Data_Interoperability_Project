@@ -5,13 +5,13 @@
         <recording>La Vie en rose</recording>
         <lyricist>Edith Piaf</lyricist>
         <composers numbers = "2">
-            <composer1>Louiguy</composer1>
-            <composer2>Edith Piaf</composer2>
+            <composer>Louiguy</composer>
+            <composer>Edith Piaf</composer>
         </composers>
-        <Publisher numbers="2">
-            <publisher1>Éditions Beuscher Arpège </publisher1>
-            <publisher1>Pear music</publisher1>
-        </Publisher>
+        <Publishers numbers="2">
+            <publisher>Éditions Beuscher Arpège </publisher>
+            <publisher>Pear music</publisher>
+        </Publishers>
         <Artist>Edith Piaf</Artist>
         <ratings>0</ratings>
         <length unit="minutes">3.02</length>
@@ -21,7 +21,7 @@
         <recording>Hymne à l’amour</recording>
         <lyricist>Edith Piaf</lyricist>
         <composers numbers = "1">
-            <composer1>Louiguy</composer1>
+            <composer>Louiguy</composer>
         </composers>
         <Artist>Edith Piaf</Artist>
         <ratings>0</ratings>
@@ -41,7 +41,7 @@
         </conductor>
         <lyricist>Michel Emer</lyricist>
         <composers number = "1">
-            <composer1>Michel Emer</composer1>
+            <composer>Michel Emer</composer>
         </composers>
         <Artist>Edith Piaf</Artist>
         <ratings>0</ratings>
@@ -61,15 +61,15 @@
         </conductor>
         <lyricist>Michel Emer</lyricist>
         <composers number = "2">
-            <composer1>Les Paul</composer1>
-            <composer2>Richard Stein</composer2>
+            <composer>Les Paul</composer>
+            <composer>Richard Stein</composer>
         </composers>
         <translator>Francis Lemarque</translator>
         <translatedversion>Johnny (Is the Boy for Me)</translatedversion>
         <lyricist>
             <lyricist1>Liviu Deleanu</lyricist1>
-            <lyricist1>Paddy Roberts </lyricist1>
-            <lyricist1>Marcel Stellman</lyricist1>
+            <lyricist2>Paddy Roberts </lyricist2>
+            <lyricist3>Marcel Stellman</lyricist3>
         </lyricist>
         <Artist>Edith Piaf</Artist>
         <ratings>0</ratings>
@@ -82,7 +82,7 @@
             <lyricist1>Henri Contet</lyricist1>
         </lyricist>
         <composers numbers = "1">
-            <composer1>Louiguy</composer1>
+            <composer>Louiguy</composer>
         </composers>
         <Artist>Edith Piaf</Artist>
         <ratings>0</ratings>
@@ -95,7 +95,7 @@
             <lyricist1>Michel Emer</lyricist1>
         </lyricist>
         <composers numbers = "1">
-            <composer1>Michel Emer</composer1>
+            <composer>Michel Emer</composer>
         </composers>
         <Artist>Edith Piaf</Artist>
         <ratings>0</ratings>
@@ -109,8 +109,8 @@
             <lyricist2>Jerry Leiber</lyricist2>
         </lyricist>
         <composers numbers = "2">
-            <composer1>Jerry Leiber</composer1>
-            <composer2>Mike Stoller</composer2>
+            <composer>Jerry Leiber</composer>
+            <composer>Mike Stoller</composer>
         </composers>
         <translator>Jean Dréjac</translator>
         <translatedversion>Black Denim Trousers and Motorcycle Boots</translatedversion>
@@ -125,7 +125,7 @@
             <lyricist1>Michel Rivgauche</lyricist1>
         </lyricist>
         <composers numbers = "1">
-            <composer1>Ángel Cabral</composer1>
+            <composer>Ángel Cabral</composer>
         </composers>
         <Publisher numbers="1">
             <publisher1>Éditions Métropolitaines</publisher1>
@@ -141,11 +141,11 @@
             <lyricist1>Jean Constantin</lyricist1>
         </lyricist>
         <composers numbers = "1">
-            <composer1>Norbert Glanzberg</composer1>
+            <composer>Norbert Glanzberg</composer>
         </composers>
-        <Publisher numbers="1">
-            <publisher1>Éditions Métropolitaines</publisher1>
-        </Publisher>
+        <Publishers numbers="1">
+            <publisher>Éditions Métropolitaines</publisher>
+        </Publishers>
         <vocals>
             <artistname>Édith Piaf</artistname>
         </vocals>
